@@ -72,14 +72,14 @@
               <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
-			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
+			      <!-- <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -89,7 +89,7 @@
 	<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-01.jpg')">
 		<div class="heading">
 			<h1>Hello I'm Elena</h1>
-			<p>Graduate Research Assistant at the MIT Media Lab</p>
+			<p>I love to build cool tech.</p>
 			<h3 class="cd-headline clip is-full-width">
 				<span>Currently exploring</span>
                 <br>
@@ -102,30 +102,6 @@
 			</h3>
 		</div>
 	</section>
-
-<!--    ABOUT   -->
-    <div id="about" class="section wb">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="message-box">                        
-                        <h2>About Elena</h2>
-                        <p> I am a research assistant at the MIT Media Lab's Responsive Environments Group lead by Professor Joe Paradiso. 
-                        Currently, I am working on context-aware systems and novel interfaces using augmented reality. Specifically, exploring ways to better integrate extended intelligence into our daily life to create memorable experiences and human-agent interactions. 
-                         </p>
-
-                        <a href="http://www.elenachong.com/academic/ElenaCVFeb2020.pdf" class="sim-btn btn-hover-new" data-text="Download CV"><span>Download CV</span></a>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-
-                <div class="col-md-6">
-                    <div class="right-box-pro wow fadeIn">
-                        <img src="uploads/about1.jpg" alt="" class="img-fluid img-rounded">
-                    </div><!-- end media -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
 	
 <!--PORTFOLIO-->
 	
@@ -133,7 +109,7 @@
 		<div class="container">
 			<div class="section-title text-left">
                 <h3>PORTFOLIO</h3>
-                <p>My new portfolio of silly projects</p>
+                <!-- <p>My new portfolio of silly projects</p> -->
             </div><!-- end title -->
             
             <!--			PORTFOLIO FILTER-->
@@ -151,15 +127,26 @@
 			<div class="gallery-list row">
                 
 <!--     FRONT END PORTFOLIO LIST           -->
-                                
+                <!--		PORTFOLIO ITEM 12		-->
+                <div class="col-md-4 col-sm-6 gallery-grid gal_a">
+                  <div class="gallery-single fix">
+                      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal12" >
+                          <div class="img-overlay">
+                              <i class="hoverimg">LightCloud: Future of Dynamic Lighting in the Shared Space</i>
+                            </div>                     
+                          <img class="img-fluid" src="images/portfolio/LightCloud/lightcloud.jpg" alt="LightCloud"> 
+                      </div>
+                  </div>
+              </div>                                
+
                 <!--		PORTFOLIO ITEM 11		-->
                 <div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
                   <div class="gallery-single fix">
-                      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal10" >
+                      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal11" >
                           <div class="img-overlay">
                               <i class="hoverimg">AR TOUR GUIDE NAVIGATION AND VOICE RECOGNITION MOBILE APP</i>
                             </div>                     
-                          <img class="img-fluid" src="images/portfolio/reina/REINA.gif" alt="HOLOLENS + NAVMESH AGENT WITH VOICE RESPONSE"> 
+                          <img class="img-fluid" src="images/portfolio/reina/REINA.gif" alt="REINA"> 
                       </div>
                   </div>
               </div> 
@@ -291,15 +278,44 @@
 			</div> <!-- porfolio section where all the contents are-->
 		</div> <!-- porfolio section -->
 	
+  
+<!--    ABOUT   -->
+<div id="about" class="section wb">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+              <div class="message-box">                        
+                  <h2>About Elena</h2>
+                    <p> I am a technical entrepreneur who love to play and build cool tech that might make an impact in the world. I was a research assistant at the MIT Media Lab's Responsive Environments Group lead by Professor Joe Paradiso. 
+                    While there, I worked on context-aware systems and novel interfaces using augmented reality. Specifically, I explored ways to better integrate extended intelligence into our daily life to create memorable experiences and interactions with our augmented reality AI assistant. 
+                    </p>
+
+                  <a href="/images/ElenaCV2021.pdf" class="sim-btn btn-hover-new" data-text="Download CV"><span>Download CV</span></a>
+              </div><!-- end messagebox -->
+          </div><!-- end col -->
+
+          <div class="col-md-6">
+              <div class="right-box-pro wow fadeIn">
+                  <img src="uploads/about1.jpg" alt="" class="img-fluid img-rounded">
+              </div><!-- end media -->
+          </div><!-- end col -->
+      </div><!-- end row -->
+  </div><!-- end container -->
+</div><!-- end section -->
+
+
+
+
 <!--	MEDIUM BLOG   -->
-	<div id="blog" class="section lb">
+	<!-- <div id="blog" class="section lb">
 		<div class="container">
 			<div class="section-title text-left">
                 <h3>BLOG</h3>
                 <p>Check out my <a href="/blog/" >personal blog</a>.</p>
-            </div><!-- end title -->
+            </div> -->
+            <!-- end title -->
 			
-            <div id="retainable-rss-embed" 
+            <!-- <div id="retainable-rss-embed" 
                 data-rss="https://medium.com/feed/@elenack"
                 data-maxcols="3" 
                 data-layout="slider" 
@@ -308,7 +324,7 @@
                 data-buttonclass="btn btn-primary" 
                 data-offset="-100"></div>
 		</div>
-	</div>
+	</div> -->
 
 <!--    FOOTER  -->
     <div class="copyrights">
@@ -748,7 +764,7 @@
   </div> 
   
                        <!-- Portfolio Modal 11 -->
-                       <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-labelledby="portfolioModal11Label" aria-hidden="true">
+                       <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-labelledby="portfolioModal11Label" aria-hidden="true">
                         <div class="modal-dialog modal-xl" role="document">
                           <div class="modal-content">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -772,10 +788,10 @@
                                     </div>
                                     <!-- Portfolio Modal - Image -->
                                         <div class="embed-responsive embed-responsive-16by9 rounded mb-5">
-                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=efxs6pW2umw" allowfullscreen></iframe>
+                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/efxs6pW2umw" allowfullscreen></iframe>
                                         </div>
                                       <!-- Portfolio Modal - Text -->
-                                    <p class="mb-5"> This project is part of my Masters thesis work at the MIT Media Lab. I build an avatar tour guide that has an understanding of the physical environment and can navigate around it in tri-dimension. It can also understand voice commands and navigate to specific destination point. Check out my <a href="https://dspace.mit.edu/handle/1721.1/129272">thesis</a> for more detail.</p> 
+                                    <p class="mb-5"> This project is part of my Masters thesis work at the MIT Media Lab. I build an avatar tour guide that has an understanding of the physical environment and can navigate around it in tri-dimension. It can also understand voice commands and navigate to specific destination point. Check out my <a href="https://dspace.mit.edu/handle/1721.1/129272">thesis</a> <br><br>R.E.I.N.A. : towards pervasive interface agents that transcend the physical-digital worlds, by Elena Chong Loo Kodama</p> 
                                     <button class="btn btn-primary" href="#" data-dismiss="modal">
                                       <i class="fa fa-times"></i>
                                       Close Window
@@ -788,8 +804,50 @@
                         </div>
                       </div> 
 
+                       <!-- Portfolio Modal 12 -->
+                       <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-labelledby="portfolioModal12Label" aria-hidden="true">
+                        <div class="modal-dialog modal-xl" role="document">
+                          <div class="modal-content">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">
+                                <i class="fa fa-times"></i>
+                              </span>
+                            </button>
+                            <div class="modal-body text-center">
+                              <div class="container">
+                                <div class="row justify-content-center">
+                                  <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title -->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">LightCloud: Future of Dynamic Lighting in the Shared Space</h2>
+                                    <!-- Icon Divider -->
+                                    <div class="divider-custom">
+                                      <div class="divider-custom-line"></div>
+                                      <div class="divider-custom-icon">
+                                        <i class="fa fa-star"></i>
+                                      </div>
+                                      <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image -->
+                                        <div class="embed-responsive embed-responsive-16by9 rounded mb-5">
+                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hh0BcBnZN8s" allowfullscreen></iframe>
+                                        </div>
+                                      <!-- Portfolio Modal - Text -->
+                                    <p class="mb-5"> Lighting conditions in an indoor environment have been shown to affect our cognition and behaviors in a variety of ways. On average, we spend 90% of our time in indoor environments. These usually involve multiple people with diverse environmental needs sharing a space with the same lighting conditions. Additionally, besides providing us with better illumination for practical and aesthetic effects, the way we use and interact with light has not changed. To address this, we present LightCloud, a lighting system that enables each user to create and control their own dynamic light source in a shared enclosed space for enhancing social interactions and work experience. The advances in smart lighting and novel distributed system architecture will further enable novel multi-user dynamic lighting. This paper aims to provide a look into the applications of dynamic lighting between multiple users in a shared environment. This paper was published and presented at the 2020 Future Technologies Conference. You can access the paper in the proceedings: <br><br> Kodama, Elena C., Nan Zhao, and Joseph A. Paradiso. "LightCloud: Future of Dynamic Lighting in the Shared Space." Proceedings of the Future Technologies Conference. Springer, Cham, 2020. <a href="https://link.springer.com/chapter/10.1007/978-3-030-63092-8_69">here</a></p> 
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal">
+                                      <i class="fa fa-times"></i>
+                                      Close Window
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+
+
 <!--    END OF PORTFOLIO -->
-    
+
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
     <!-- ALL JS FILES -->
